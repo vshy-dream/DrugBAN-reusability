@@ -69,7 +69,7 @@ If you want to incorporate an early stopping strategy during the model training,
 To change the model's pooling method to max pooling, you can replace the **ban.py** file in the **DrugBAN** folder with the modified **ban.py** file. This updated **ban.py** file should contain the necessary code for implementing max pooling as the pooling mechanism in the model. By using this updated file, you can switch the pooling method to max pooling in your model.
 
 ## Drug Response Prediction Using DrugBAN with/without CDAN module
-To employ the DrugBAN in drug response prediction, you can replace the models.py file and dataloder.py file in the DrugBAN folder with the modified models.py file and dataloder.py file.
+To employ the DrugBAN in drug response prediction, you can replace the **models.py** file and **dataloder.py** file in the DrugBAN folder with the modified **models.py** file and **dataloder.py** file.
 To reproduce the results of cancer cell and drug response prediction, please follow the instructions below and use the provided parameters for experimentation:
 
 For the cross-domain experiments with vanilla DrugBAN, run the following command:
