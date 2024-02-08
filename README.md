@@ -81,5 +81,11 @@ For the cross-domain experiments with CDAN DrugBAN, run the following command:
 ```
 python main.py --cfg "configs/DrugBAN_DA.yaml" --data drug_cell --split cluster
 ```
+## Consistency check for the primary code using MD5 code
 
-
+* DrugBAN-reusability-main
+    * ban.py (MD5:6f30afb3530d6537cec189c71a4a6287)
+    * dataloader.py (MD5:e160981669d60cb3cc502df67c3d9588)
+    * models.py (MD5:f5dda5da85994d50782dfa93adaf1805)
+    * trainer.py (MD5:d5ecf36f26408ffffebbf0f8ab08ced1)
+    * utils.py (MD5:5841fafe0fc643f363930994aabd437a)
